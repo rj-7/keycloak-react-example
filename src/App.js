@@ -13,9 +13,9 @@ import Keycloak from 'keycloak-js';
   Init Options
 */
 let initOptions = {
-  url: 'http://localhost:8080/',
-  realm: 'master',
-  clientId: 'react-client',
+  url: 'http://20.120.235.111:8080/',
+  realm: 'ezkey',
+  clientId: 'ezkey-fe',
 }
 
 let kc = new Keycloak(initOptions);
