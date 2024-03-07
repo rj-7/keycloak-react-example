@@ -13,7 +13,7 @@ import Keycloak from 'keycloak-js';
   Init Options
 */
 let initOptions = {
-  url: 'http://20.120.235.111:8080/',
+  url: 'http://20.120.235.111:80/',
   realm: 'ezkey',
   clientId: 'ezkey-fe',
 }
